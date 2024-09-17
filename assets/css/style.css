@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+}
+
+.card-1:hover .circle {
+    background: #F7B103;
+}
+
+.card-1:hover .circle svg path {
+    fill: black;
+    transition: all 500ms linear;
+}
+
+.silk-card-bg-img {
+    background-image: url(/assets/image/png/tower.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.silk-card-bg-img-2 {
+    background-image: url(/assets/image/png/bg-road.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.silk-card-bg-img-3 {
+    background-image: url(/assets/image/png/clock-tower.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.slider-section .slick-list .slick-track {
+    display: flex;
+    gap: 20px;
+    max-width: 1140px !important;
+    width: 100% !important;
+}
+
+.border-gradient {
+    border: 2px solid;
+    background-color: #F7B1031A;
+}
+
+
+.prev {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 200ms linear;
+  }
+  
+  .next {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 200ms linear;
+  }
+  
+  .next:hover {
+    background-color: white;
+  }
+  
+  .next:hover path {
+    fill: black;
+  }
+  
+  .prev:hover {
+    background-color: white;
+  }
+  
+  .prev:hover path {
+    fill: black;
+  }
+  
