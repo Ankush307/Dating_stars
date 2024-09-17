@@ -18,23 +18,18 @@
     transition: all 500ms linear;
 }
 
-.silk-card-bg-img {
+.sliderFirst {
     background-image: url(/assets/image/png/tower.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.silk-card-bg-img-2 {
+.sliderTwo {
     background-image: url(/assets/image/png/bg-road.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
-.silk-card-bg-img-3 {
+.sliderThree {
     background-image: url(/assets/image/png/clock-tower.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-
 }
 
 .slider-section .slick-list .slick-track {
